@@ -448,7 +448,6 @@ a:focus, button:focus {
 
 #footer {
   background: #414B5B;
-  margin-top: 120px;
   padding-top: 47px;
   padding-bottom: 35px;
   -webkit-font-smoothing: antialiased; }
@@ -701,7 +700,7 @@ a:focus, button:focus {
     z-index: 33; }
   #home #hero h1.hero-text {
     /*font-family: "Lato", "Helvetica Neue", Arial;*/
-    font-family: "Roboto";
+    font-family:  "Lato", "Helvetica Neue", Arial;
     line-height: 52px;
     text-align: center;
     font-size: 32px;
@@ -771,13 +770,13 @@ a:focus, button:focus {
   font-size:16px;
   font-weight:400;
   color: #000;
-  font-family:"Roboto";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #home #customers h1{
   font-size:32px;
   font-weight:400;
-  font-family:"Roboto";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   padding-top:20px;
   margin-bottom:30px;
   color: #000;
@@ -804,13 +803,13 @@ a:focus, button:focus {
     #home #features .header h2 {
       color: #000;
       font-weight: 400;
-      font-family: "Roboto";
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 18px; }
       @media (max-width: 767px) {
         #home #features .header h2 {
           font-size: 25px; } }
     #home #features .header p {
-      font-family: "Roboto";
+      font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 15px;
       padding-left: 2px;
       padding-right: 2px;
@@ -881,9 +880,7 @@ a:focus, button:focus {
       margin-top: 0; } }
 #home #pricing {
   -webkit-font-smoothing: antialiased;
-  border-top: 1px solid #EAEAEA;
-  border-bottom: 1px solid #EAEAEA;
-  background: #0066b5;
+  background:  rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #355069 0px, #5e7a9b 100%) repeat scroll 0 0;
   margin-top: 110px;
   padding-top: 45px;
   padding-bottom: 70px; }
@@ -905,7 +902,7 @@ a:focus, button:focus {
       color: #fff;
       line-height: 25px;
       font-weight: 400;
-      font-family: "Roboto";
+      font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
       text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
       @media (max-width: 767px) {
         #home #pricing .header h3 {
@@ -917,7 +914,7 @@ a:focus, button:focus {
       color: #F0F0F0;
       font-weight: 400;
       line-height: 25px;
-      font-family: "Roboto";
+      font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
       text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
   #home #pricing .charts {
     margin-top: 35px; }
