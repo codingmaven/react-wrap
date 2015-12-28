@@ -97,7 +97,7 @@
     padding-right: 23px;
     height: 36px;
     line-height: 33px;
-    border-radius: 4px;
+    border-radius: 3px;
     font-weight: bold;
     color: #444;
     text-shadow: 0 1px 0 white;
@@ -447,7 +447,7 @@ a:focus, button:focus {
         padding: 8px 18px; }
 
 #footer {
-  background: #414B5B;
+  background: #FFF;
   padding-top: 47px;
   padding-bottom: 35px;
   -webkit-font-smoothing: antialiased; }
@@ -471,9 +471,9 @@ a:focus, button:focus {
     #footer .menu ul li {
       display: inline-block; }
       #footer .menu ul li.active a {
-        color: #fff; }
+        color: #000; }
       #footer .menu ul li a {
-        color: #ccc;
+        color: #666;
         padding: 15px 17px;
         font-weight: 500;
         -webkit-transition: color 0.2s linear;
@@ -482,7 +482,7 @@ a:focus, button:focus {
         -o-transition: color 0.2s linear;
         transition: color 0.2s linear; }
         #footer .menu ul li a:hover {
-          color: #fff;
+          color: #000;
           text-decoration: none; }
         @media (max-width: 991px) {
           #footer .menu ul li a {
@@ -703,7 +703,7 @@ a:focus, button:focus {
     font-family:  "Lato", "Helvetica Neue", Arial;
     line-height: 52px;
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 300;
     margin-top:60px;
     color: #FFF;
@@ -749,7 +749,7 @@ a:focus, button:focus {
       margin-right: 20px;
       font-size: 18px;
       font-weight:300;
-      padding: 8px 40px; }
+      padding: 11px 40px; }
       @media (max-width: 767px) {
         #home #hero .cta a {
           font-size: 18px;
@@ -888,8 +888,8 @@ a:focus, button:focus {
 #home #pricing .cta a{
   margin-right: 20px;
   margin-top:30px;
-  padding: 8px 31px;
-  font-size: 20px;
+  padding: 11px 40px;
+  font-size: 18px;
 }
   #home #pricing .header {
     text-align: center;
@@ -930,7 +930,7 @@ a:focus, button:focus {
       position: relative;
       text-align: center;
       width: 97%;
-      min-height: 315px;
+      min-height: 425px;
       position: relative;
       top: 37px; }
       @media (max-width: 991px) {
