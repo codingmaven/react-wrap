@@ -656,7 +656,7 @@ a:focus, button:focus {
   overflow: hidden;
   background: #4B4848;
   background-size: cover;
-  background-image: url("../images/leadscout-background.jpg");
+  background-image: url("../images/leadscout-hero.jpg");
   /* These are some ready-to-use backgrounds you can test out by uncommenting them */
   /*background-image: url("../../images/bg2.png");*/
   /*background-image: url("../../images/bg3.png");*/
@@ -713,7 +713,6 @@ a:focus, button:focus {
       #home #hero h1.hero-text {
         font-size: 25px;
         line-height: 38px;
-        margin-top: 0;
         text-align: center; } }
   #home #hero .sub-text {
     -webkit-font-smoothing: antialiased;
@@ -880,7 +879,11 @@ a:focus, button:focus {
       margin-top: 0; } }
 #home #pricing {
   -webkit-font-smoothing: antialiased;
-  background:  rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #355069 0px, #5e7a9b 100%) repeat scroll 0 0;
+  background: -webkit-linear-gradient(top, #355069 0, #5E7A9B 100%);
+  background: -moz-linear-gradient(top, #355069 0, #5E7A9B 100%);
+  background: -o-linear-gradient(top, #355069 0, #5E7A9B 100%);
+  background: linear-gradient(top, #355069 0, #5E7A9B 100%);
+  background: #5E7A9B;
   margin-top: 110px;
   padding-top: 45px;
   padding-bottom: 70px; }
@@ -893,7 +896,7 @@ a:focus, button:focus {
 }
   #home #pricing .header {
     text-align: center;
-    font-family: "Lato", "Helvetica Neue", Arial; }
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif; }
     @media (max-width: 991px) {
       #home #pricing .header {
         margin-bottom: 25px; } }
@@ -988,7 +991,8 @@ a:focus, button:focus {
         margin: 0 auto;
         margin-top: 8px; }
       #home #pricing .charts .chart .specs {
-        margin-top: 20px; }
+        margin-top: 20px;
+        min-height: 165px;}
         #home #pricing .charts .chart .specs .spec {
           font-size: 15px;
           color: #474747;
