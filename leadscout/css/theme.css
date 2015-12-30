@@ -765,6 +765,9 @@ a:focus, button:focus {
     @media (max-width: 991px) {
       #home #hero .img {
         display: none; } }
+#home #customers {
+  padding-top: 80px;
+}
 #home #customers p{
   font-size:16px;
   font-weight:400;
@@ -879,14 +882,14 @@ a:focus, button:focus {
       margin-top: 0; } }
 #home #pricing {
   -webkit-font-smoothing: antialiased;
+  background: #5E7A9B;
   background: -webkit-linear-gradient(top, #355069 0, #5E7A9B 100%);
   background: -moz-linear-gradient(top, #355069 0, #5E7A9B 100%);
   background: -o-linear-gradient(top, #355069 0, #5E7A9B 100%);
   background: linear-gradient(top, #355069 0, #5E7A9B 100%);
-  background: #5E7A9B;
   margin-top: 110px;
   padding-top: 45px;
-  padding-bottom: 70px; }
+  padding-bottom: 110px; }
 
 #home #pricing .cta a{
   margin-right: 20px;
