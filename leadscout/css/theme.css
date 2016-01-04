@@ -880,7 +880,7 @@ a:focus, button:focus {
   @media (max-width: 767px) {
     #home #features {
       margin-top: 0; } }
-#home #pricing {
+#pricing {
   -webkit-font-smoothing: antialiased;
   background: #5E7A9B;
   background: -webkit-linear-gradient(top, #355069 0, #5E7A9B 100%);
@@ -891,19 +891,19 @@ a:focus, button:focus {
   padding-top: 45px;
   padding-bottom: 110px; }
 
-#home #pricing .cta a{
+#pricing .cta a{
   margin-right: 20px;
   margin-top:30px;
   padding: 11px 40px;
   font-size: 18px;
 }
-  #home #pricing .header {
+  #pricing .header {
     text-align: center;
     font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif; }
     @media (max-width: 991px) {
-      #home #pricing .header {
+      #pricing .header {
         margin-bottom: 25px; } }
-    #home #pricing .header h3 {
+    #pricing .header h3 {
       font-size: 32px;
       color: #fff;
       line-height: 25px;
@@ -911,10 +911,10 @@ a:focus, button:focus {
       font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
       text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
       @media (max-width: 767px) {
-        #home #pricing .header h3 {
+        #pricing .header h3 {
           font-size: 24px;
           line-height: 29px; } }
-    #home #pricing .header p {
+    #pricing .header p {
       font-size: 22px;
       margin-top: 15px;
       color: #F0F0F0;
@@ -922,12 +922,12 @@ a:focus, button:focus {
       line-height: 25px;
       font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
       text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
-  #home #pricing .charts {
+  #pricing .charts {
     margin-top: 35px; }
     @media (max-width: 991px) {
-      #home #pricing .charts {
+      #pricing .charts {
         margin-top: 10px; } }
-    #home #pricing .charts .chart {
+    #pricing .charts .chart {
       background-color: #fff;
       border: 1px solid #E6E6E6;
       border-radius: 5px;
@@ -940,50 +940,50 @@ a:focus, button:focus {
       position: relative;
       top: 37px; }
       @media (max-width: 991px) {
-        #home #pricing .charts .chart {
+        #pricing .charts .chart {
           float: none !important;
           left: 0px !important;
           top: 0px !important;
           margin: 0 auto;
           width: 55%;
           margin-bottom: 25px !important; }
-          #home #pricing .charts .chart.last {
+          #pricing .charts .chart.last {
             margin-bottom: 0px !important; } }
       @media (max-width: 600px) {
-        #home #pricing .charts .chart {
+        #pricing .charts .chart {
           width: 90% !important; } }
-      #home #pricing .charts .chart.first {
+      #pricing .charts .chart.first {
         float: right;
         left: 12px; }
-      #home #pricing .charts .chart.last {
+      #pricing .charts .chart.last {
         left: -12px; }
-      #home #pricing .charts .chart.featured {
+      #pricing .charts .chart.featured {
         min-height: 350px;
         top: 0px;
         margin: 0 auto; }
-        #home #pricing .charts .chart.featured .popular {
+        #pricing .charts .chart.featured .popular {
           text-align: center;
           text-transform: uppercase;
           font-size: 16px;
           letter-spacing: 1px;
           color: #B1B1B1;
           font-weight: 400; }
-        #home #pricing .charts .chart.featured .quantity {
+        #pricing .charts .chart.featured .quantity {
           margin-top: 15px; }
-      #home #pricing .charts .chart .quantity {
+      #pricing .charts .chart .quantity {
         text-align: center; }
-        #home #pricing .charts .chart .quantity .dollar {
+        #pricing .charts .chart .quantity .dollar {
           font-size: 19px;
           position: relative;
           top: -18px; }
-        #home #pricing .charts .chart .quantity .price {
+        #pricing .charts .chart .quantity .price {
           font-size: 49px; }
-        #home #pricing .charts .chart .quantity .period {
+        #pricing .charts .chart .quantity .period {
           font-size: 17px;
           position: relative;
           top: -8px;
           margin-left: 4px; }
-      #home #pricing .charts .chart .plan-name {
+      #pricing .charts .chart .plan-name {
         text-align: center;
         font-size: 20px;
         font-weight: 400;
@@ -993,19 +993,19 @@ a:focus, button:focus {
         width: 90%;
         margin: 0 auto;
         margin-top: 8px; }
-      #home #pricing .charts .chart .specs {
+      #pricing .charts .chart .specs {
         margin-top: 20px;
         min-height: 168px;}
-        #home #pricing .charts .chart .specs .spec {
+        #pricing .charts .chart .specs .spec {
           font-size: 15px;
           color: #474747;
           text-align: center;
           font-weight: 300;
           margin-bottom: 13px; }
-          #home #pricing .charts .chart .specs .spec .variable {
+          #pricing .charts .chart .specs .spec .variable {
             color: #1FBEE7;
             font-weight: 400; }
-      #home #pricing .charts .chart .btn-signup {
+      #pricing .charts .chart .btn-signup {
         margin-top: 20px;
         height: 38px; }
 #home #slider {
@@ -1370,7 +1370,7 @@ a:focus, button:focus {
           margin: 0 auto; }
 #features #first-option {
   /* mixin found in partials/snippets */
-  margin-top: 100px; }
+  margin-top: 50px; }
   @media (max-width: 991px) {
     #features #first-option {
       margin-top: 50px; } }
