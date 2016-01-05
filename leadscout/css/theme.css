@@ -1463,6 +1463,9 @@ a:focus, button:focus {
   #features #first-option .feature {
     margin-top: 55px;
     -webkit-font-smoothing: antialiased; }
+  #features #first-option .image{
+    text-align: center;
+  }
     @media (min-width: 992px) {
       #features #first-option .feature.backwards .info {
         float: right; }
