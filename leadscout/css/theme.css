@@ -234,7 +234,12 @@ a:focus, button:focus {
 
 .navbar.normal {
   min-height: 70px;
-  background: #223741;
+  /*background: #223741;*/
+  background: #5E7A9B;
+  background: -webkit-linear-gradient(top, #355069 0, #5E7A9B 100%);
+  background: -moz-linear-gradient(top, #355069 0, #5E7A9B 100%);
+  background: -o-linear-gradient(top, #355069 0, #5E7A9B 100%);
+  background: linear-gradient(top, #355069 0, #5E7A9B 100%);
   border-radius: 0px;
   box-shadow: 0px 1px 3px 1px rgba(46, 46, 46, 0.3), inset rgba(255, 255, 255, 0.2) 0 1px 1px;
   border: none;
@@ -1442,12 +1447,13 @@ a:focus, button:focus {
   #features #first-option .header {
     text-align: center; }
     #features #first-option .header h2 {
-      color: #555;
-      font-weight: 300;
-      font-size: 28px; }
+      font-size: 32px;
+      line-height: 25px;
+      font-weight: 400;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
       @media (max-width: 767px) {
         #features #first-option .header h2 {
-          font-size: 25px; } }
+          font-size: 32px; } }
     #features #first-option .header p {
       font-weight: 300;
       font-size: 17px;
@@ -1466,21 +1472,22 @@ a:focus, button:focus {
       #features #first-option .feature {
         margin-top: 10px; } }
     #features #first-option .feature .info h4 {
-      color: #3B88B6;
-      font-weight: normal;
-      font-size: 19px;
-      line-height: 25px;
-      margin-top: 35px; }
+      font-size: 32px;
+      font-weight: 400;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      padding-top: 20px;
+      margin-bottom: 30px;
+      color: #000;
+      text-align: center}
       @media (max-width: 991px) {
         #features #first-option .feature .info h4 {
           text-align: center; } }
     #features #first-option .feature .info p {
-      color: #6C7279;
-      font-size: 14px;
-      margin-top: 20px;
-      line-height: 24px;
-      width: 83%;
-      font-weight: normal; }
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      text-align: center; }
       @media (max-width: 991px) {
         #features #first-option .feature .info p {
           text-align: center;
@@ -1516,7 +1523,7 @@ a:focus, button:focus {
     #features #first-option {
       margin-top: 15px; } }
   #features #first-option .feature {
-    margin-bottom: 130px; }
+    }
     @media (max-width: 991px) {
       #features #first-option .feature {
         margin-bottom: 50px; } }
