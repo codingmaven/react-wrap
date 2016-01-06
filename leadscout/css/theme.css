@@ -1488,7 +1488,7 @@ a:focus, button:focus {
         #features #first-option .feature .info h4 {
           text-align: center; } }
     #features #first-option .feature .info p {
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 400;
       color: #000;
       font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -5108,4 +5108,12 @@ html.bg {
               top: -4px;
               left: 0; }
 
+            .vcenter{
+              float:none;
+              display:inline-block;
+              vertical-align:middle;
+              margin-right:-4px;
+              text-align:center;
+              font-size: 18px;
+            }
 /*# sourceMappingURL=theme.css.map */
